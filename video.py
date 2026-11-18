@@ -59,7 +59,7 @@ def _open_capture(source: Source, backend: str) -> cv2.VideoCapture:
     backend_id = _backend_id(backend)
     if backend_id is None:
         raise SourceError(
-            f"Unknown capture backend '{backend}'. Choose one of: auto, any, dshow, msf."
+            f"Unknown capture backend '{backend}'. Choose one of: auto, any, dshow, msmf."
         )
     return cv2.VideoCapture(source, backend_id)
 
