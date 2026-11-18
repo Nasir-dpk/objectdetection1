@@ -1,0 +1,26 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Model weights / exports (auto-downloaded by Ultralytics)
+*.pt
+*.onnx
+*.engine
+*.torchscript
+*.tflite
+
+# Runtime output
+runs/
+outputs/
+result*.mp4
+*.log
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

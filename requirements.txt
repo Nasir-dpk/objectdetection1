@@ -1,0 +1,5 @@
+﻿# Core stack (YOLO26 + ByteTrack via Ultralytics, OpenCV for video I/O and drawing).
+# Install CPU-only PyTorch first for a much smaller download:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+ultralytics>=8.4.183,<8.5
+opencv-python>=4.10
